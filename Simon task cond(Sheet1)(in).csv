@@ -1,0 +1,11 @@
+color,position,correct_key,congruency
+red,"[-0.3,0]",z,congruent
+red,"[0.3,0]",z,incongruent
+green,"[-0.3,0]",m,incongruent
+green,"[0.3,0]",m,congruent
+red,"[-0.3,0]",z,congruent
+red,"[0.3,0]",z,incongruent
+green,"[-0.3,0]",m,incongruent
+green,"[0.3,0]",m,congruent
+red,"[-0.3,0]",z,congruent
+red,"[0.3,0]",z,incongruent
