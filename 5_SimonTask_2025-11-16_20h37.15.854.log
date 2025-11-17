@@ -1,0 +1,1148 @@
+68.2768 	INFO 	Loaded monitor calibration from ['2025_08_12 10:43']
+68.3344 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+69.5473 	INFO 	Using renderer 'Intel(R) Iris(R) Xe Graphics' for graphics
+69.5473 	INFO 	OpenGL version supported by driver is 4..
+69.7049 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000023F0BF3B100>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000023F0BF3B0A0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000023F0C022A70>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+69.7050 	EXP 	window1: backgroundImage = ''
+69.7050 	EXP 	window1: backgroundFit = 'none'
+70.1961 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+70.1961 	EXP 	window1: recordFrameIntervals = False
+70.3436 	EXP 	window1: recordFrameIntervals = True
+70.5273 	EXP 	Screen (0) actual frame rate measured at 59.96Hz
+70.5273 	EXP 	window1: recordFrameIntervals = False
+70.6465 	INFO 	keyboard.Keyboard is using ptb backend.
+70.6467 	INFO 	keyboard.Keyboard is using ptb backend.
+70.6467 	EXP 	SimonTask: status = STARTED
+71.4425 	EXP 	Created fixation = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+71.4453 	EXP 	Created Stimulus = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-1.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='Stimulus', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...))
+0.0627 	EXP 	Imported Simon task cond(Sheet1)(in).csv as conditions, 10 conditions, 4 params
+0.0650 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.0760 	INFO 	Keyboard events cleared
+0.0758 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+0.0758 	EXP 	fixation: autoDraw = True
+0.0758 	EXP 	Stimulus: autoDraw = True
+0.5804 	EXP 	fixation: autoDraw = False
+1.0805 	EXP 	Stimulus: autoDraw = False
+1.3391 	EXP 	Device response: <KeyPress from None: t=1.1282120000105351, value=m, duration=None>
+1.3393 	EXP 	Device response: <KeyPress from None: t=1.1282120000105351, value=m, duration=0.1525678999896627>
+1.3394 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+1.3410 	DATA 	Keypress: m
+1.3440 	INFO 	Keyboard events cleared
+1.3439 	EXP 	fixation: autoDraw = False
+1.3439 	EXP 	Stimulus: autoDraw = False
+1.3439 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+1.3439 	EXP 	fixation: autoDraw = True
+1.3439 	EXP 	Stimulus: autoDraw = True
+1.8468 	EXP 	fixation: autoDraw = False
+2.3469 	EXP 	Stimulus: autoDraw = False
+2.5304 	EXP 	Device response: <KeyPress from None: t=2.5143192000105046, value=m, duration=None>
+2.5306 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+2.5323 	DATA 	Keypress: m
+2.5468 	INFO 	Keyboard events cleared
+2.5467 	EXP 	fixation: autoDraw = False
+2.5467 	EXP 	Stimulus: autoDraw = False
+2.5467 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+2.5467 	EXP 	fixation: autoDraw = True
+2.5467 	EXP 	Stimulus: autoDraw = True
+2.7141 	EXP 	Device response: <KeyPress from None: t=2.5143192000105046, value=m, duration=0.18954909998865332>
+3.0461 	EXP 	fixation: autoDraw = False
+3.5465 	EXP 	Stimulus: autoDraw = False
+3.6636 	EXP 	Device response: <KeyPress from None: t=3.658166200009873, value=z, duration=None>
+3.6639 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+3.6672 	DATA 	Keypress: z
+3.6799 	INFO 	Keyboard events cleared
+3.6798 	EXP 	fixation: autoDraw = False
+3.6798 	EXP 	Stimulus: autoDraw = False
+3.6798 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+3.6798 	EXP 	fixation: autoDraw = True
+3.6798 	EXP 	Stimulus: autoDraw = True
+3.7970 	EXP 	Device response: <KeyPress from None: t=3.658166200009873, value=z, duration=0.1273077999940142>
+4.1793 	EXP 	fixation: autoDraw = False
+4.6794 	EXP 	Stimulus: autoDraw = False
+4.7798 	EXP 	Device response: <KeyPress from None: t=4.778350200009299, value=z, duration=None>
+4.7802 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+4.7836 	DATA 	Keypress: z
+4.7965 	INFO 	Keyboard events cleared
+4.7963 	EXP 	fixation: autoDraw = False
+4.7963 	EXP 	Stimulus: autoDraw = False
+4.7963 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+4.7963 	EXP 	fixation: autoDraw = True
+4.7963 	EXP 	Stimulus: autoDraw = True
+4.8967 	EXP 	Device response: <KeyPress from None: t=4.778350200009299, value=z, duration=0.1102995999972336>
+5.2956 	EXP 	fixation: autoDraw = False
+5.7964 	EXP 	Stimulus: autoDraw = False
+5.8654 	EXP 	Device response: <KeyPress from None: t=5.850559200000134, value=z, duration=None>
+5.8657 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+5.8694 	DATA 	Keypress: z
+5.8793 	INFO 	Keyboard events cleared
+5.8791 	EXP 	fixation: autoDraw = False
+5.8791 	EXP 	Stimulus: autoDraw = False
+5.8791 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+5.8791 	EXP 	fixation: autoDraw = True
+5.8791 	EXP 	Stimulus: autoDraw = True
+5.9628 	EXP 	Device response: <KeyPress from None: t=5.850559200000134, value=z, duration=0.10841210000216961>
+6.3786 	EXP 	fixation: autoDraw = False
+6.7457 	EXP 	Device response: <KeyPress from None: t=6.744287699999404, value=z, duration=None>
+6.7461 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+6.7496 	DATA 	Keypress: z
+6.7620 	INFO 	Keyboard events cleared
+6.7619 	EXP 	fixation: autoDraw = False
+6.7619 	EXP 	Stimulus: autoDraw = False
+6.7619 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+6.7619 	EXP 	fixation: autoDraw = True
+6.7619 	EXP 	Stimulus: autoDraw = True
+6.8625 	EXP 	Device response: <KeyPress from None: t=6.744287699999404, value=z, duration=0.11585870000999421>
+7.2620 	EXP 	fixation: autoDraw = False
+7.6295 	DATA 	Keypress: m
+7.6450 	EXP 	Device response: <KeyPress from None: t=7.6289393000042764, value=m, duration=None>
+7.6453 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+7.6617 	INFO 	Keyboard events cleared
+7.6615 	EXP 	fixation: autoDraw = False
+7.6615 	EXP 	Stimulus: autoDraw = False
+7.6615 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+7.6615 	EXP 	fixation: autoDraw = True
+7.6615 	EXP 	Stimulus: autoDraw = True
+7.8123 	EXP 	Device response: <KeyPress from None: t=7.6289393000042764, value=m, duration=0.1664794999960577>
+8.1618 	EXP 	fixation: autoDraw = False
+8.6612 	EXP 	Stimulus: autoDraw = False
+11.1273 	EXP 	Device response: <KeyPress from None: t=11.125797800006694, value=m, duration=None>
+11.1276 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+11.1308 	DATA 	Keypress: m
+11.1436 	INFO 	Keyboard events cleared
+11.1435 	EXP 	fixation: autoDraw = False
+11.1435 	EXP 	Stimulus: autoDraw = False
+11.1435 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+11.1435 	EXP 	fixation: autoDraw = True
+11.1435 	EXP 	Stimulus: autoDraw = True
+11.3445 	EXP 	Device response: <KeyPress from None: t=11.125797800006694, value=m, duration=0.21041529999638442>
+11.6438 	EXP 	fixation: autoDraw = False
+12.1432 	EXP 	Stimulus: autoDraw = False
+12.2434 	EXP 	Device response: <KeyPress from None: t=12.240138399996795, value=z, duration=None>
+12.2437 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+12.2468 	DATA 	Keypress: z
+12.2600 	INFO 	Keyboard events cleared
+12.2599 	EXP 	fixation: autoDraw = False
+12.2599 	EXP 	Stimulus: autoDraw = False
+12.2599 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+12.2599 	EXP 	fixation: autoDraw = True
+12.2599 	EXP 	Stimulus: autoDraw = True
+12.4440 	EXP 	Device response: <KeyPress from None: t=12.240138399996795, value=z, duration=0.19443250000767875>
+12.7603 	EXP 	fixation: autoDraw = False
+13.1106 	EXP 	Device response: <KeyPress from None: t=13.099887700009276, value=z, duration=None>
+13.1109 	EXP 	New trial (rep=1, index=0): <Trial 10 (0 in rep 1) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 10, 'thisTrialN': 0, 'thisRepN': 1}>
+13.1146 	DATA 	Keypress: z
+13.1267 	INFO 	Keyboard events cleared
+13.1265 	EXP 	fixation: autoDraw = False
+13.1265 	EXP 	Stimulus: autoDraw = False
+13.1265 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+13.1265 	EXP 	fixation: autoDraw = True
+13.1265 	EXP 	Stimulus: autoDraw = True
+13.3101 	EXP 	Device response: <KeyPress from None: t=13.099887700009276, value=z, duration=0.19763809999858495>
+13.6263 	EXP 	fixation: autoDraw = False
+13.8934 	EXP 	Device response: <KeyPress from None: t=13.883194000009098, value=z, duration=None>
+13.8938 	EXP 	New trial (rep=1, index=1): <Trial 11 (1 in rep 1) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 11, 'thisTrialN': 1, 'thisRepN': 1}>
+13.8970 	DATA 	Keypress: z
+13.9096 	INFO 	Keyboard events cleared
+13.9094 	EXP 	fixation: autoDraw = False
+13.9094 	EXP 	Stimulus: autoDraw = False
+13.9094 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+13.9094 	EXP 	fixation: autoDraw = True
+13.9094 	EXP 	Stimulus: autoDraw = True
+14.1103 	EXP 	Device response: <KeyPress from None: t=13.883194000009098, value=z, duration=0.21355649999168236>
+14.4093 	EXP 	fixation: autoDraw = False
+14.7601 	EXP 	Device response: <KeyPress from None: t=14.7497546000086, value=m, duration=None>
+14.7605 	EXP 	New trial (rep=1, index=2): <Trial 12 (2 in rep 1) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 12, 'thisTrialN': 2, 'thisRepN': 1}>
+14.7640 	DATA 	Keypress: m
+14.7760 	INFO 	Keyboard events cleared
+14.7759 	EXP 	fixation: autoDraw = False
+14.7759 	EXP 	Stimulus: autoDraw = False
+14.7759 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+14.7759 	EXP 	fixation: autoDraw = True
+14.7759 	EXP 	Stimulus: autoDraw = True
+14.8931 	EXP 	Device response: <KeyPress from None: t=14.7497546000086, value=m, duration=0.12831309999455698>
+15.2760 	EXP 	fixation: autoDraw = False
+15.7757 	EXP 	Stimulus: autoDraw = False
+16.4426 	EXP 	Device response: <KeyPress from None: t=16.43957670000964, value=m, duration=None>
+16.4430 	EXP 	New trial (rep=1, index=3): <Trial 13 (3 in rep 1) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 13, 'thisTrialN': 3, 'thisRepN': 1}>
+16.4465 	DATA 	Keypress: m
+16.4587 	INFO 	Keyboard events cleared
+16.4586 	EXP 	fixation: autoDraw = False
+16.4586 	EXP 	Stimulus: autoDraw = False
+16.4586 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+16.4586 	EXP 	fixation: autoDraw = True
+16.4586 	EXP 	Stimulus: autoDraw = True
+16.5926 	EXP 	Device response: <KeyPress from None: t=16.43957670000964, value=m, duration=0.1498938000004273>
+16.9586 	EXP 	fixation: autoDraw = False
+17.0927 	EXP 	Device response: <KeyPress from None: t=17.082918000000063, value=z, duration=None>
+17.0932 	EXP 	New trial (rep=1, index=4): <Trial 14 (4 in rep 1) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 14, 'thisTrialN': 4, 'thisRepN': 1}>
+17.0966 	DATA 	Keypress: z
+17.1084 	INFO 	Keyboard events cleared
+17.1083 	EXP 	fixation: autoDraw = False
+17.1083 	EXP 	Stimulus: autoDraw = False
+17.1083 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+17.1083 	EXP 	fixation: autoDraw = True
+17.1083 	EXP 	Stimulus: autoDraw = True
+17.2923 	EXP 	Device response: <KeyPress from None: t=17.082918000000063, value=z, duration=0.20409460000519175>
+17.6087 	EXP 	fixation: autoDraw = False
+17.9250 	EXP 	Device response: <KeyPress from None: t=17.92399789999763, value=z, duration=None>
+17.9254 	EXP 	New trial (rep=1, index=5): <Trial 15 (5 in rep 1) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 15, 'thisTrialN': 5, 'thisRepN': 1}>
+17.9291 	DATA 	Keypress: z
+17.9414 	INFO 	Keyboard events cleared
+17.9413 	EXP 	fixation: autoDraw = False
+17.9413 	EXP 	Stimulus: autoDraw = False
+17.9413 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+17.9413 	EXP 	fixation: autoDraw = True
+17.9413 	EXP 	Stimulus: autoDraw = True
+18.1254 	EXP 	Device response: <KeyPress from None: t=17.92399789999763, value=z, duration=0.19336290001228917>
+18.4411 	EXP 	fixation: autoDraw = False
+18.4583 	EXP 	Device response: <KeyPress from None: t=18.45211680000648, value=z, duration=None>
+18.4585 	EXP 	New trial (rep=1, index=6): <Trial 16 (6 in rep 1) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 16, 'thisTrialN': 6, 'thisRepN': 1}>
+18.4612 	DATA 	Keypress: z
+18.4747 	INFO 	Keyboard events cleared
+18.4746 	EXP 	fixation: autoDraw = False
+18.4746 	EXP 	Stimulus: autoDraw = False
+18.4746 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+18.4746 	EXP 	fixation: autoDraw = True
+18.4746 	EXP 	Stimulus: autoDraw = True
+18.6918 	EXP 	Device response: <KeyPress from None: t=18.45211680000648, value=z, duration=0.23228399999788962>
+18.9436 	DATA 	Keypress: m
+18.9584 	EXP 	Device response: <KeyPress from None: t=18.94178790001024, value=m, duration=None>
+18.9587 	EXP 	New trial (rep=1, index=7): <Trial 17 (7 in rep 1) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 17, 'thisTrialN': 7, 'thisRepN': 1}>
+18.9749 	INFO 	Keyboard events cleared
+18.9747 	EXP 	fixation: autoDraw = False
+18.9747 	EXP 	fixation: autoDraw = False
+18.9747 	EXP 	Stimulus: autoDraw = False
+18.9747 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+18.9747 	EXP 	fixation: autoDraw = True
+18.9747 	EXP 	Stimulus: autoDraw = True
+19.1249 	EXP 	Device response: <KeyPress from None: t=18.94178790001024, value=m, duration=0.16600959999777842>
+19.4745 	EXP 	fixation: autoDraw = False
+19.8584 	EXP 	Device response: <KeyPress from None: t=19.857275500005926, value=m, duration=None>
+19.8588 	EXP 	New trial (rep=1, index=8): <Trial 18 (8 in rep 1) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 18, 'thisTrialN': 8, 'thisRepN': 1}>
+19.8628 	DATA 	Keypress: m
+19.8742 	INFO 	Keyboard events cleared
+19.8740 	EXP 	fixation: autoDraw = False
+19.8740 	EXP 	Stimulus: autoDraw = False
+19.8740 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+19.8740 	EXP 	fixation: autoDraw = True
+19.8740 	EXP 	Stimulus: autoDraw = True
+19.9913 	EXP 	Device response: <KeyPress from None: t=19.857275500005926, value=m, duration=0.12235720000171568>
+20.3740 	EXP 	fixation: autoDraw = False
+20.8741 	EXP 	Stimulus: autoDraw = False
+22.5071 	EXP 	Device response: <KeyPress from None: t=22.504565600000205, value=z, duration=None>
+22.5075 	EXP 	New trial (rep=1, index=9): <Trial 19 (9 in rep 1) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 19, 'thisTrialN': 9, 'thisRepN': 1}>
+22.5126 	DATA 	Keypress: z
+22.5233 	INFO 	Keyboard events cleared
+22.5231 	EXP 	fixation: autoDraw = False
+22.5231 	EXP 	Stimulus: autoDraw = False
+22.5231 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+22.5231 	EXP 	fixation: autoDraw = True
+22.5231 	EXP 	Stimulus: autoDraw = True
+22.6568 	EXP 	Device response: <KeyPress from None: t=22.504565600000205, value=z, duration=0.13675279999733903>
+23.0233 	EXP 	fixation: autoDraw = False
+23.5230 	EXP 	Stimulus: autoDraw = False
+25.8391 	EXP 	Device response: <KeyPress from None: t=25.837320200007525, value=m, duration=None>
+25.8394 	EXP 	New trial (rep=2, index=0): <Trial 20 (0 in rep 2) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 20, 'thisTrialN': 0, 'thisRepN': 2}>
+25.8427 	DATA 	Keypress: m
+25.8555 	INFO 	Keyboard events cleared
+25.8554 	EXP 	fixation: autoDraw = False
+25.8554 	EXP 	Stimulus: autoDraw = False
+25.8554 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+25.8554 	EXP 	fixation: autoDraw = True
+25.8554 	EXP 	Stimulus: autoDraw = True
+26.0392 	EXP 	Device response: <KeyPress from None: t=25.837320200007525, value=m, duration=0.19798379999701865>
+26.3554 	EXP 	fixation: autoDraw = False
+26.7225 	EXP 	Device response: <KeyPress from None: t=26.718810400008806, value=z, duration=None>
+26.7229 	EXP 	New trial (rep=2, index=1): <Trial 21 (1 in rep 2) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 21, 'thisTrialN': 1, 'thisRepN': 2}>
+26.7265 	DATA 	Keypress: z
+26.7385 	INFO 	Keyboard events cleared
+26.7384 	EXP 	fixation: autoDraw = False
+26.7384 	EXP 	Stimulus: autoDraw = False
+26.7384 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+26.7384 	EXP 	fixation: autoDraw = True
+26.7384 	EXP 	Stimulus: autoDraw = True
+26.9391 	EXP 	Device response: <KeyPress from None: t=26.718810400008806, value=z, duration=0.21581869998772163>
+27.2382 	EXP 	fixation: autoDraw = False
+27.3218 	EXP 	Device response: <KeyPress from None: t=27.315536299996893, value=z, duration=None>
+27.3221 	EXP 	New trial (rep=2, index=2): <Trial 22 (2 in rep 2) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 22, 'thisTrialN': 2, 'thisRepN': 2}>
+27.3253 	DATA 	Keypress: z
+27.3381 	INFO 	Keyboard events cleared
+27.3380 	EXP 	fixation: autoDraw = False
+27.3380 	EXP 	Stimulus: autoDraw = False
+27.3380 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+27.3380 	EXP 	fixation: autoDraw = True
+27.3380 	EXP 	Stimulus: autoDraw = True
+27.5221 	EXP 	Device response: <KeyPress from None: t=27.315536299996893, value=z, duration=0.2048085000133142>
+27.8383 	EXP 	fixation: autoDraw = False
+27.9886 	EXP 	Device response: <KeyPress from None: t=27.987701100006234, value=m, duration=None>
+27.9890 	EXP 	New trial (rep=2, index=3): <Trial 23 (3 in rep 2) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 23, 'thisTrialN': 3, 'thisRepN': 2}>
+27.9928 	DATA 	Keypress: m
+28.0047 	INFO 	Keyboard events cleared
+28.0046 	EXP 	fixation: autoDraw = False
+28.0046 	EXP 	Stimulus: autoDraw = False
+28.0046 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+28.0046 	EXP 	fixation: autoDraw = True
+28.0046 	EXP 	Stimulus: autoDraw = True
+28.1887 	EXP 	Device response: <KeyPress from None: t=27.987701100006234, value=m, duration=0.1961412999953609>
+28.5044 	EXP 	fixation: autoDraw = False
+28.9714 	EXP 	Device response: <KeyPress from None: t=28.96782649999659, value=m, duration=None>
+28.9718 	EXP 	New trial (rep=2, index=4): <Trial 24 (4 in rep 2) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 24, 'thisTrialN': 4, 'thisRepN': 2}>
+28.9752 	DATA 	Keypress: m
+28.9878 	INFO 	Keyboard events cleared
+28.9876 	EXP 	fixation: autoDraw = False
+28.9876 	EXP 	Stimulus: autoDraw = False
+28.9876 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+28.9876 	EXP 	fixation: autoDraw = True
+28.9876 	EXP 	Stimulus: autoDraw = True
+29.1545 	EXP 	Device response: <KeyPress from None: t=28.96782649999659, value=m, duration=0.1760396000026958>
+29.4874 	EXP 	fixation: autoDraw = False
+29.6209 	EXP 	Device response: <KeyPress from None: t=29.61370280000847, value=m, duration=None>
+29.6211 	EXP 	New trial (rep=2, index=5): <Trial 25 (5 in rep 2) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 25, 'thisTrialN': 5, 'thisRepN': 2}>
+29.6238 	DATA 	Keypress: m
+29.6373 	INFO 	Keyboard events cleared
+29.6372 	EXP 	fixation: autoDraw = False
+29.6372 	EXP 	Stimulus: autoDraw = False
+29.6372 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+29.6372 	EXP 	fixation: autoDraw = True
+29.6372 	EXP 	Stimulus: autoDraw = True
+29.7877 	EXP 	Device response: <KeyPress from None: t=29.61370280000847, value=m, duration=0.16616949999297503>
+30.1370 	EXP 	fixation: autoDraw = False
+30.1709 	EXP 	Device response: <KeyPress from None: t=30.161628100002417, value=z, duration=None>
+30.1712 	EXP 	New trial (rep=2, index=6): <Trial 26 (6 in rep 2) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 26, 'thisTrialN': 6, 'thisRepN': 2}>
+30.1736 	DATA 	Keypress: z
+30.1872 	INFO 	Keyboard events cleared
+30.1871 	EXP 	fixation: autoDraw = False
+30.1871 	EXP 	Stimulus: autoDraw = False
+30.1871 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+30.1871 	EXP 	fixation: autoDraw = True
+30.1871 	EXP 	Stimulus: autoDraw = True
+30.3879 	EXP 	Device response: <KeyPress from None: t=30.161628100002417, value=z, duration=0.2217510000045877>
+30.6869 	EXP 	fixation: autoDraw = False
+30.7209 	EXP 	Device response: <KeyPress from None: t=30.716580599997542, value=z, duration=None>
+30.7213 	EXP 	New trial (rep=2, index=7): <Trial 27 (7 in rep 2) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 27, 'thisTrialN': 7, 'thisRepN': 2}>
+30.7257 	DATA 	Keypress: z
+30.7370 	INFO 	Keyboard events cleared
+30.7369 	EXP 	fixation: autoDraw = False
+30.7369 	EXP 	Stimulus: autoDraw = False
+30.7369 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+30.7369 	EXP 	fixation: autoDraw = True
+30.7369 	EXP 	Stimulus: autoDraw = True
+30.9379 	EXP 	Device response: <KeyPress from None: t=30.716580599997542, value=z, duration=0.21659830000135116>
+31.2372 	EXP 	fixation: autoDraw = False
+31.3562 	DATA 	Keypress: m
+31.3708 	EXP 	Device response: <KeyPress from None: t=31.355639500005054, value=m, duration=None>
+31.3712 	EXP 	New trial (rep=2, index=8): <Trial 28 (8 in rep 2) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 28, 'thisTrialN': 8, 'thisRepN': 2}>
+31.3870 	INFO 	Keyboard events cleared
+31.3868 	EXP 	fixation: autoDraw = False
+31.3868 	EXP 	Stimulus: autoDraw = False
+31.3868 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+31.3868 	EXP 	fixation: autoDraw = True
+31.3868 	EXP 	Stimulus: autoDraw = True
+31.5876 	EXP 	Device response: <KeyPress from None: t=31.355639500005054, value=m, duration=0.21487860000343062>
+31.8864 	EXP 	fixation: autoDraw = False
+32.2553 	DATA 	Keypress: z
+32.2706 	EXP 	Device response: <KeyPress from None: t=32.254488300008234, value=z, duration=None>
+32.2710 	EXP 	New trial (rep=2, index=9): <Trial 29 (9 in rep 2) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 29, 'thisTrialN': 9, 'thisRepN': 2}>
+32.2869 	INFO 	Keyboard events cleared
+32.2867 	EXP 	fixation: autoDraw = False
+32.2867 	EXP 	Stimulus: autoDraw = False
+32.2867 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+32.2867 	EXP 	fixation: autoDraw = True
+32.2867 	EXP 	Stimulus: autoDraw = True
+32.4541 	EXP 	Device response: <KeyPress from None: t=32.254488300008234, value=z, duration=0.19901289998961147>
+32.7867 	EXP 	fixation: autoDraw = False
+33.1365 	EXP 	Device response: <KeyPress from None: t=33.13116330000048, value=m, duration=None>
+33.1368 	EXP 	New trial (rep=3, index=0): <Trial 30 (0 in rep 3) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 30, 'thisTrialN': 0, 'thisRepN': 3}>
+33.1410 	DATA 	Keypress: m
+33.1529 	INFO 	Keyboard events cleared
+33.1528 	EXP 	fixation: autoDraw = False
+33.1528 	EXP 	Stimulus: autoDraw = False
+33.1528 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+33.1528 	EXP 	fixation: autoDraw = True
+33.1528 	EXP 	Stimulus: autoDraw = True
+33.3204 	EXP 	Device response: <KeyPress from None: t=33.13116330000048, value=m, duration=0.18289460000232793>
+33.6531 	EXP 	fixation: autoDraw = False
+33.9535 	EXP 	Device response: <KeyPress from None: t=33.94347969999944, value=m, duration=None>
+33.9539 	EXP 	New trial (rep=3, index=1): <Trial 31 (1 in rep 3) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 31, 'thisTrialN': 1, 'thisRepN': 3}>
+33.9575 	DATA 	Keypress: m
+33.9695 	INFO 	Keyboard events cleared
+33.9694 	EXP 	fixation: autoDraw = False
+33.9694 	EXP 	Stimulus: autoDraw = False
+33.9694 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+33.9694 	EXP 	fixation: autoDraw = True
+33.9694 	EXP 	Stimulus: autoDraw = True
+34.1200 	EXP 	Device response: <KeyPress from None: t=33.94347969999944, value=m, duration=0.16944520000834018>
+34.4694 	EXP 	fixation: autoDraw = False
+34.6861 	EXP 	Device response: <KeyPress from None: t=34.6741408000089, value=z, duration=None>
+34.6865 	EXP 	New trial (rep=3, index=2): <Trial 32 (2 in rep 3) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 32, 'thisTrialN': 2, 'thisRepN': 3}>
+34.6903 	DATA 	Keypress: z
+34.7025 	INFO 	Keyboard events cleared
+34.7024 	EXP 	fixation: autoDraw = False
+34.7024 	EXP 	Stimulus: autoDraw = False
+34.7024 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+34.7024 	EXP 	fixation: autoDraw = True
+34.7024 	EXP 	Stimulus: autoDraw = True
+34.8861 	EXP 	Device response: <KeyPress from None: t=34.6741408000089, value=z, duration=0.21136370000021998>
+35.2021 	EXP 	fixation: autoDraw = False
+35.4025 	EXP 	Device response: <KeyPress from None: t=35.40134229999967, value=m, duration=None>
+35.4027 	EXP 	New trial (rep=3, index=3): <Trial 33 (3 in rep 3) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 33, 'thisTrialN': 3, 'thisRepN': 3}>
+35.4047 	DATA 	Keypress: m
+35.4186 	INFO 	Keyboard events cleared
+35.4185 	EXP 	fixation: autoDraw = False
+35.4185 	EXP 	Stimulus: autoDraw = False
+35.4185 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+35.4185 	EXP 	fixation: autoDraw = True
+35.4185 	EXP 	Stimulus: autoDraw = True
+35.6190 	EXP 	Device response: <KeyPress from None: t=35.40134229999967, value=m, duration=0.20853730000089854>
+35.9187 	EXP 	fixation: autoDraw = False
+36.4185 	EXP 	Stimulus: autoDraw = False
+42.1671 	EXP 	Device response: <KeyPress from None: t=42.15929290000349, value=z, duration=None>
+42.1675 	EXP 	New trial (rep=3, index=4): <Trial 34 (4 in rep 3) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 34, 'thisTrialN': 4, 'thisRepN': 3}>
+42.1713 	DATA 	Keypress: z
+42.1834 	INFO 	Keyboard events cleared
+42.1832 	EXP 	fixation: autoDraw = False
+42.1832 	EXP 	Stimulus: autoDraw = False
+42.1832 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+42.1832 	EXP 	fixation: autoDraw = True
+42.1832 	EXP 	Stimulus: autoDraw = True
+42.4005 	EXP 	Device response: <KeyPress from None: t=42.15929290000349, value=z, duration=0.232860799995251>
+42.6833 	EXP 	fixation: autoDraw = False
+43.0507 	EXP 	Device response: <KeyPress from None: t=43.0422305999964, value=z, duration=None>
+43.0511 	EXP 	New trial (rep=3, index=5): <Trial 35 (5 in rep 3) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 35, 'thisTrialN': 5, 'thisRepN': 3}>
+43.0555 	DATA 	Keypress: z
+43.0664 	INFO 	Keyboard events cleared
+43.0662 	EXP 	fixation: autoDraw = False
+43.0662 	EXP 	Stimulus: autoDraw = False
+43.0662 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+43.0662 	EXP 	fixation: autoDraw = True
+43.0662 	EXP 	Stimulus: autoDraw = True
+43.2669 	EXP 	Device response: <KeyPress from None: t=43.0422305999964, value=z, duration=0.2197154000023147>
+43.5662 	EXP 	fixation: autoDraw = False
+43.9667 	EXP 	Device response: <KeyPress from None: t=43.95901970000705, value=z, duration=None>
+43.9671 	EXP 	New trial (rep=3, index=6): <Trial 36 (6 in rep 3) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 36, 'thisTrialN': 6, 'thisRepN': 3}>
+43.9707 	DATA 	Keypress: z
+43.9825 	INFO 	Keyboard events cleared
+43.9824 	EXP 	fixation: autoDraw = False
+43.9824 	EXP 	Stimulus: autoDraw = False
+43.9824 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+43.9824 	EXP 	fixation: autoDraw = True
+43.9824 	EXP 	Stimulus: autoDraw = True
+44.2000 	EXP 	Device response: <KeyPress from None: t=43.95901970000705, value=z, duration=0.23160499999357853>
+44.4823 	EXP 	fixation: autoDraw = False
+44.9825 	EXP 	Stimulus: autoDraw = False
+50.0146 	EXP 	Device response: <KeyPress from None: t=50.00111900000775, value=z, duration=None>
+50.0150 	EXP 	New trial (rep=3, index=7): <Trial 37 (7 in rep 3) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 37, 'thisTrialN': 7, 'thisRepN': 3}>
+50.0196 	DATA 	Keypress: z
+50.0306 	INFO 	Keyboard events cleared
+50.0304 	EXP 	fixation: autoDraw = False
+50.0304 	EXP 	Stimulus: autoDraw = False
+50.0304 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+50.0304 	EXP 	fixation: autoDraw = True
+50.0304 	EXP 	Stimulus: autoDraw = True
+50.2477 	EXP 	Device response: <KeyPress from None: t=50.00111900000775, value=z, duration=0.2311111000017263>
+50.5306 	EXP 	fixation: autoDraw = False
+50.8975 	EXP 	Device response: <KeyPress from None: t=50.89592900000571, value=m, duration=None>
+50.8979 	EXP 	New trial (rep=3, index=8): <Trial 38 (8 in rep 3) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 38, 'thisTrialN': 8, 'thisRepN': 3}>
+50.9028 	DATA 	Keypress: m
+50.9140 	INFO 	Keyboard events cleared
+50.9138 	EXP 	fixation: autoDraw = False
+50.9138 	EXP 	Stimulus: autoDraw = False
+50.9138 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+50.9138 	EXP 	fixation: autoDraw = True
+50.9138 	EXP 	Stimulus: autoDraw = True
+51.0977 	EXP 	Device response: <KeyPress from None: t=50.89592900000571, value=m, duration=0.1873557999933837>
+51.4134 	EXP 	fixation: autoDraw = False
+51.9132 	EXP 	Stimulus: autoDraw = False
+51.9472 	EXP 	Device response: <KeyPress from None: t=51.93720960000064, value=m, duration=None>
+51.9476 	EXP 	New trial (rep=3, index=9): <Trial 39 (9 in rep 3) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 39, 'thisTrialN': 9, 'thisRepN': 3}>
+51.9508 	DATA 	Keypress: m
+51.9633 	INFO 	Keyboard events cleared
+51.9631 	EXP 	fixation: autoDraw = False
+51.9631 	EXP 	Stimulus: autoDraw = False
+51.9631 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+51.9631 	EXP 	fixation: autoDraw = True
+51.9631 	EXP 	Stimulus: autoDraw = True
+52.1138 	EXP 	Device response: <KeyPress from None: t=51.93720960000064, value=m, duration=0.1719779999984894>
+52.4634 	EXP 	fixation: autoDraw = False
+52.9630 	EXP 	Stimulus: autoDraw = False
+53.1471 	EXP 	Device response: <KeyPress from None: t=53.13220710000314, value=m, duration=None>
+53.1476 	EXP 	New trial (rep=4, index=0): <Trial 40 (0 in rep 4) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 40, 'thisTrialN': 0, 'thisRepN': 4}>
+53.1514 	DATA 	Keypress: m
+53.1630 	INFO 	Keyboard events cleared
+53.1628 	EXP 	fixation: autoDraw = False
+53.1628 	EXP 	Stimulus: autoDraw = False
+53.1628 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+53.1628 	EXP 	fixation: autoDraw = True
+53.1628 	EXP 	Stimulus: autoDraw = True
+53.3801 	EXP 	Device response: <KeyPress from None: t=53.13220710000314, value=m, duration=0.2384089999977732>
+53.6628 	EXP 	fixation: autoDraw = False
+53.7960 	EXP 	Device response: <KeyPress from None: t=53.79088120000961, value=m, duration=None>
+53.7963 	EXP 	New trial (rep=4, index=1): <Trial 41 (1 in rep 4) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 41, 'thisTrialN': 1, 'thisRepN': 4}>
+53.7985 	DATA 	Keypress: m
+53.8126 	INFO 	Keyboard events cleared
+53.8124 	EXP 	fixation: autoDraw = False
+53.8124 	EXP 	Stimulus: autoDraw = False
+53.8124 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+53.8124 	EXP 	fixation: autoDraw = True
+53.8124 	EXP 	Stimulus: autoDraw = True
+54.0133 	EXP 	Device response: <KeyPress from None: t=53.79088120000961, value=m, duration=0.22150970000075176>
+54.3128 	EXP 	fixation: autoDraw = False
+54.4644 	DATA 	Keypress: m
+54.4796 	EXP 	Device response: <KeyPress from None: t=54.46334200000274, value=m, duration=None>
+54.4800 	EXP 	New trial (rep=4, index=2): <Trial 42 (2 in rep 4) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 42, 'thisTrialN': 2, 'thisRepN': 4}>
+54.4961 	INFO 	Keyboard events cleared
+54.4959 	EXP 	fixation: autoDraw = False
+54.4959 	EXP 	Stimulus: autoDraw = False
+54.4959 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+54.4959 	EXP 	fixation: autoDraw = True
+54.4959 	EXP 	Stimulus: autoDraw = True
+54.6466 	EXP 	Device response: <KeyPress from None: t=54.46334200000274, value=m, duration=0.16595480000250973>
+54.9954 	EXP 	fixation: autoDraw = False
+55.4955 	EXP 	Stimulus: autoDraw = False
+57.8120 	EXP 	Device response: <KeyPress from None: t=57.80570389999775, value=m, duration=None>
+57.8124 	EXP 	New trial (rep=4, index=3): <Trial 43 (3 in rep 4) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 43, 'thisTrialN': 3, 'thisRepN': 4}>
+57.8160 	DATA 	Keypress: m
+57.8279 	INFO 	Keyboard events cleared
+57.8277 	EXP 	fixation: autoDraw = False
+57.8277 	EXP 	Stimulus: autoDraw = False
+57.8277 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+57.8277 	EXP 	fixation: autoDraw = True
+57.8277 	EXP 	Stimulus: autoDraw = True
+58.0120 	EXP 	Device response: <KeyPress from None: t=57.80570389999775, value=m, duration=0.20476130000315607>
+58.3276 	EXP 	fixation: autoDraw = False
+58.8277 	EXP 	Stimulus: autoDraw = False
+58.8282 	EXP 	Device response: <KeyPress from None: t=58.81897210000898, value=z, duration=None>
+58.8286 	EXP 	New trial (rep=4, index=4): <Trial 44 (4 in rep 4) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 44, 'thisTrialN': 4, 'thisRepN': 4}>
+58.8324 	DATA 	Keypress: z
+58.8443 	INFO 	Keyboard events cleared
+58.8442 	EXP 	fixation: autoDraw = False
+58.8442 	EXP 	Stimulus: autoDraw = False
+58.8442 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+58.8442 	EXP 	fixation: autoDraw = True
+58.8442 	EXP 	Stimulus: autoDraw = True
+59.0617 	EXP 	Device response: <KeyPress from None: t=58.81897210000898, value=z, duration=0.2368102999898838>
+59.3444 	EXP 	fixation: autoDraw = False
+59.7115 	EXP 	Device response: <KeyPress from None: t=59.69890600000508, value=z, duration=None>
+59.7118 	EXP 	New trial (rep=4, index=5): <Trial 45 (5 in rep 4) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 45, 'thisTrialN': 5, 'thisRepN': 4}>
+59.7161 	DATA 	Keypress: z
+59.7272 	INFO 	Keyboard events cleared
+59.7271 	EXP 	fixation: autoDraw = False
+59.7271 	EXP 	Stimulus: autoDraw = False
+59.7271 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+59.7271 	EXP 	fixation: autoDraw = True
+59.7271 	EXP 	Stimulus: autoDraw = True
+59.9614 	EXP 	Device response: <KeyPress from None: t=59.69890600000508, value=z, duration=0.24671809999563266>
+60.2274 	EXP 	fixation: autoDraw = False
+60.7267 	EXP 	Stimulus: autoDraw = False
+61.8436 	EXP 	Device response: <KeyPress from None: t=61.82924350000394, value=z, duration=None>
+61.8439 	EXP 	New trial (rep=4, index=6): <Trial 46 (6 in rep 4) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 46, 'thisTrialN': 6, 'thisRepN': 4}>
+61.8463 	DATA 	Keypress: z
+61.8602 	INFO 	Keyboard events cleared
+61.8601 	EXP 	fixation: autoDraw = False
+61.8601 	EXP 	Stimulus: autoDraw = False
+61.8601 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+61.8601 	EXP 	fixation: autoDraw = True
+61.8601 	EXP 	Stimulus: autoDraw = True
+62.1272 	EXP 	Device response: <KeyPress from None: t=61.82924350000394, value=z, duration=0.2921920999942813>
+62.3599 	EXP 	fixation: autoDraw = False
+62.6105 	EXP 	Device response: <KeyPress from None: t=62.60947870000382, value=z, duration=None>
+62.6108 	EXP 	New trial (rep=4, index=7): <Trial 47 (7 in rep 4) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 47, 'thisTrialN': 7, 'thisRepN': 4}>
+62.6145 	DATA 	Keypress: z
+62.6263 	INFO 	Keyboard events cleared
+62.6262 	EXP 	fixation: autoDraw = False
+62.6262 	EXP 	Stimulus: autoDraw = False
+62.6262 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+62.6262 	EXP 	fixation: autoDraw = True
+62.6262 	EXP 	Stimulus: autoDraw = True
+62.8769 	EXP 	Device response: <KeyPress from None: t=62.60947870000382, value=z, duration=0.2552531999972416>
+63.1259 	EXP 	fixation: autoDraw = False
+63.3930 	EXP 	Device response: <KeyPress from None: t=63.38340320000134, value=z, duration=None>
+63.3934 	EXP 	New trial (rep=4, index=8): <Trial 48 (8 in rep 4) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 48, 'thisTrialN': 8, 'thisRepN': 4}>
+63.3961 	DATA 	Keypress: z
+63.4091 	INFO 	Keyboard events cleared
+63.4091 	EXP 	fixation: autoDraw = False
+63.4091 	EXP 	Stimulus: autoDraw = False
+63.4091 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+63.4091 	EXP 	fixation: autoDraw = True
+63.4091 	EXP 	Stimulus: autoDraw = True
+63.6596 	EXP 	Device response: <KeyPress from None: t=63.38340320000134, value=z, duration=0.26979150000261143>
+63.9095 	EXP 	fixation: autoDraw = False
+64.1593 	EXP 	Device response: <KeyPress from None: t=64.15286539999943, value=z, duration=None>
+64.1595 	EXP 	New trial (rep=4, index=9): <Trial 49 (9 in rep 4) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 49, 'thisTrialN': 9, 'thisRepN': 4}>
+64.1611 	DATA 	Keypress: z
+64.1757 	INFO 	Keyboard events cleared
+64.1755 	EXP 	fixation: autoDraw = False
+64.1755 	EXP 	Stimulus: autoDraw = False
+64.1755 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+64.1755 	EXP 	fixation: autoDraw = True
+64.1755 	EXP 	Stimulus: autoDraw = True
+64.4262 	EXP 	Device response: <KeyPress from None: t=64.15286539999943, value=z, duration=0.2588910000049509>
+64.6756 	EXP 	fixation: autoDraw = False
+64.9762 	EXP 	Device response: <KeyPress from None: t=64.9637694999983, value=m, duration=None>
+64.9766 	EXP 	New trial (rep=5, index=0): <Trial 50 (0 in rep 5) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 50, 'thisTrialN': 0, 'thisRepN': 5}>
+64.9802 	DATA 	Keypress: m
+64.9923 	INFO 	Keyboard events cleared
+64.9921 	EXP 	fixation: autoDraw = False
+64.9921 	EXP 	Stimulus: autoDraw = False
+64.9921 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+64.9921 	EXP 	fixation: autoDraw = True
+64.9921 	EXP 	Stimulus: autoDraw = True
+65.1593 	EXP 	Device response: <KeyPress from None: t=64.9637694999983, value=m, duration=0.1934107999986736>
+65.4922 	EXP 	fixation: autoDraw = False
+65.9920 	EXP 	Stimulus: autoDraw = False
+67.1754 	EXP 	Device response: <KeyPress from None: t=67.16962800000329, value=m, duration=None>
+67.1758 	EXP 	New trial (rep=5, index=1): <Trial 51 (1 in rep 5) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 51, 'thisTrialN': 1, 'thisRepN': 5}>
+67.1793 	DATA 	Keypress: m
+67.1915 	INFO 	Keyboard events cleared
+67.1913 	EXP 	fixation: autoDraw = False
+67.1913 	EXP 	Stimulus: autoDraw = False
+67.1913 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+67.1913 	EXP 	fixation: autoDraw = True
+67.1913 	EXP 	Stimulus: autoDraw = True
+67.3754 	EXP 	Device response: <KeyPress from None: t=67.16962800000329, value=m, duration=0.19321149999450427>
+67.6910 	EXP 	fixation: autoDraw = False
+68.0583 	EXP 	Device response: <KeyPress from None: t=68.0557417000091, value=m, duration=None>
+68.0587 	EXP 	New trial (rep=5, index=2): <Trial 52 (2 in rep 5) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 52, 'thisTrialN': 2, 'thisRepN': 5}>
+68.0622 	DATA 	Keypress: m
+68.0745 	INFO 	Keyboard events cleared
+68.0743 	EXP 	fixation: autoDraw = False
+68.0743 	EXP 	Stimulus: autoDraw = False
+68.0743 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+68.0743 	EXP 	fixation: autoDraw = True
+68.0743 	EXP 	Stimulus: autoDraw = True
+68.2918 	EXP 	Device response: <KeyPress from None: t=68.0557417000091, value=m, duration=0.23255249999056105>
+68.5744 	EXP 	fixation: autoDraw = False
+68.8914 	EXP 	Device response: <KeyPress from None: t=68.88570579999941, value=z, duration=None>
+68.8917 	EXP 	New trial (rep=5, index=3): <Trial 53 (3 in rep 5) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 53, 'thisTrialN': 3, 'thisRepN': 5}>
+68.8950 	DATA 	Keypress: z
+68.9075 	INFO 	Keyboard events cleared
+68.9074 	EXP 	fixation: autoDraw = False
+68.9074 	EXP 	Stimulus: autoDraw = False
+68.9074 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+68.9074 	EXP 	fixation: autoDraw = True
+68.9074 	EXP 	Stimulus: autoDraw = True
+69.1248 	EXP 	Device response: <KeyPress from None: t=68.88570579999941, value=z, duration=0.2318892000039341>
+69.4077 	EXP 	fixation: autoDraw = False
+69.7080 	EXP 	Device response: <KeyPress from None: t=69.69594150000194, value=m, duration=None>
+69.7084 	EXP 	New trial (rep=5, index=4): <Trial 54 (4 in rep 5) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 54, 'thisTrialN': 4, 'thisRepN': 5}>
+69.7121 	DATA 	Keypress: m
+69.7239 	INFO 	Keyboard events cleared
+69.7237 	EXP 	fixation: autoDraw = False
+69.7237 	EXP 	Stimulus: autoDraw = False
+69.7237 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+69.7237 	EXP 	fixation: autoDraw = True
+69.7237 	EXP 	Stimulus: autoDraw = True
+69.9906 	EXP 	Device response: <KeyPress from None: t=69.69594150000194, value=m, duration=0.28488459999789484>
+70.2239 	EXP 	fixation: autoDraw = False
+70.4910 	EXP 	Device response: <KeyPress from None: t=70.4853288000013, value=m, duration=None>
+70.4914 	EXP 	New trial (rep=5, index=5): <Trial 55 (5 in rep 5) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 55, 'thisTrialN': 5, 'thisRepN': 5}>
+70.4951 	DATA 	Keypress: m
+70.5070 	INFO 	Keyboard events cleared
+70.5068 	EXP 	fixation: autoDraw = False
+70.5068 	EXP 	Stimulus: autoDraw = False
+70.5068 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+70.5068 	EXP 	fixation: autoDraw = True
+70.5068 	EXP 	Stimulus: autoDraw = True
+70.7410 	EXP 	Device response: <KeyPress from None: t=70.4853288000013, value=m, duration=0.2438488000043435>
+71.0068 	EXP 	fixation: autoDraw = False
+71.1904 	EXP 	Device response: <KeyPress from None: t=71.18118470000627, value=z, duration=None>
+71.1907 	EXP 	New trial (rep=5, index=6): <Trial 56 (6 in rep 5) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 56, 'thisTrialN': 6, 'thisRepN': 5}>
+71.1940 	DATA 	Keypress: z
+71.2067 	INFO 	Keyboard events cleared
+71.2066 	EXP 	fixation: autoDraw = False
+71.2066 	EXP 	Stimulus: autoDraw = False
+71.2066 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+71.2066 	EXP 	fixation: autoDraw = True
+71.2066 	EXP 	Stimulus: autoDraw = True
+71.4240 	EXP 	Device response: <KeyPress from None: t=71.18118470000627, value=z, duration=0.23731559999578167>
+71.7069 	EXP 	fixation: autoDraw = False
+72.0404 	EXP 	Device response: <KeyPress from None: t=72.03190940000059, value=z, duration=None>
+72.0408 	EXP 	New trial (rep=5, index=7): <Trial 57 (7 in rep 5) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 57, 'thisTrialN': 7, 'thisRepN': 5}>
+72.0440 	DATA 	Keypress: z
+72.0564 	INFO 	Keyboard events cleared
+72.0562 	EXP 	fixation: autoDraw = False
+72.0562 	EXP 	Stimulus: autoDraw = False
+72.0562 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+72.0562 	EXP 	fixation: autoDraw = True
+72.0562 	EXP 	Stimulus: autoDraw = True
+72.2731 	EXP 	Device response: <KeyPress from None: t=72.03190940000059, value=z, duration=0.2406782000034582>
+72.5565 	EXP 	fixation: autoDraw = False
+72.8913 	DATA 	Keypress: z
+72.9068 	EXP 	Device response: <KeyPress from None: t=72.89062610000838, value=z, duration=None>
+72.9072 	EXP 	New trial (rep=5, index=8): <Trial 58 (8 in rep 5) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 58, 'thisTrialN': 8, 'thisRepN': 5}>
+72.9231 	INFO 	Keyboard events cleared
+72.9230 	EXP 	fixation: autoDraw = False
+72.9230 	EXP 	Stimulus: autoDraw = False
+72.9230 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+72.9230 	EXP 	fixation: autoDraw = True
+72.9230 	EXP 	Stimulus: autoDraw = True
+73.1400 	EXP 	Device response: <KeyPress from None: t=72.89062610000838, value=z, duration=0.24282849999144673>
+73.4224 	EXP 	fixation: autoDraw = False
+73.6742 	DATA 	Keypress: z
+73.6898 	EXP 	Device response: <KeyPress from None: t=73.67320170000312, value=z, duration=None>
+73.6901 	EXP 	New trial (rep=5, index=9): <Trial 59 (9 in rep 5) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 59, 'thisTrialN': 9, 'thisRepN': 5}>
+73.7062 	INFO 	Keyboard events cleared
+73.7060 	EXP 	fixation: autoDraw = False
+73.7060 	EXP 	Stimulus: autoDraw = False
+73.7060 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+73.7060 	EXP 	fixation: autoDraw = True
+73.7060 	EXP 	Stimulus: autoDraw = True
+73.9397 	EXP 	Device response: <KeyPress from None: t=73.67320170000312, value=z, duration=0.2589652000024216>
+74.2060 	EXP 	fixation: autoDraw = False
+74.6728 	EXP 	Device response: <KeyPress from None: t=74.66921680000087, value=z, duration=None>
+74.6732 	EXP 	New trial (rep=6, index=0): <Trial 60 (0 in rep 6) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 60, 'thisTrialN': 0, 'thisRepN': 6}>
+74.6767 	DATA 	Keypress: z
+74.6889 	INFO 	Keyboard events cleared
+74.6888 	EXP 	fixation: autoDraw = False
+74.6888 	EXP 	Stimulus: autoDraw = False
+74.6888 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+74.6888 	EXP 	fixation: autoDraw = True
+74.6888 	EXP 	Stimulus: autoDraw = True
+74.8892 	EXP 	Device response: <KeyPress from None: t=74.66921680000087, value=z, duration=0.21066810000047553>
+75.1887 	EXP 	fixation: autoDraw = False
+75.6883 	EXP 	Stimulus: autoDraw = False
+75.7890 	EXP 	Device response: <KeyPress from None: t=75.77823989999888, value=m, duration=None>
+75.7894 	EXP 	New trial (rep=6, index=1): <Trial 61 (1 in rep 6) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 61, 'thisTrialN': 1, 'thisRepN': 6}>
+75.7937 	DATA 	Keypress: m
+75.8052 	INFO 	Keyboard events cleared
+75.8051 	EXP 	fixation: autoDraw = False
+75.8051 	EXP 	Stimulus: autoDraw = False
+75.8051 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+75.8051 	EXP 	fixation: autoDraw = True
+75.8051 	EXP 	Stimulus: autoDraw = True
+76.0724 	EXP 	Device response: <KeyPress from None: t=75.77823989999888, value=m, duration=0.27996559999883175>
+76.3052 	EXP 	fixation: autoDraw = False
+76.4890 	EXP 	Device response: <KeyPress from None: t=76.47777589999896, value=z, duration=None>
+76.4894 	EXP 	New trial (rep=6, index=2): <Trial 62 (2 in rep 6) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 62, 'thisTrialN': 2, 'thisRepN': 6}>
+76.4930 	DATA 	Keypress: z
+76.5050 	INFO 	Keyboard events cleared
+76.5048 	EXP 	fixation: autoDraw = False
+76.5048 	EXP 	Stimulus: autoDraw = False
+76.5048 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+76.5048 	EXP 	fixation: autoDraw = True
+76.5048 	EXP 	Stimulus: autoDraw = True
+76.7223 	EXP 	Device response: <KeyPress from None: t=76.47777589999896, value=z, duration=0.24182989999826532>
+77.0050 	EXP 	fixation: autoDraw = False
+77.0720 	EXP 	Device response: <KeyPress from None: t=77.06206840000232, value=z, duration=None>
+77.0724 	EXP 	New trial (rep=6, index=3): <Trial 63 (3 in rep 6) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 63, 'thisTrialN': 3, 'thisRepN': 6}>
+77.0761 	DATA 	Keypress: z
+77.0881 	INFO 	Keyboard events cleared
+77.0879 	EXP 	fixation: autoDraw = False
+77.0879 	EXP 	Stimulus: autoDraw = False
+77.0879 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+77.0879 	EXP 	fixation: autoDraw = True
+77.0879 	EXP 	Stimulus: autoDraw = True
+77.3055 	EXP 	Device response: <KeyPress from None: t=77.06206840000232, value=z, duration=0.24208280000311788>
+77.5883 	EXP 	fixation: autoDraw = False
+77.7386 	EXP 	Device response: <KeyPress from None: t=77.72659849999764, value=z, duration=None>
+77.7390 	EXP 	New trial (rep=6, index=4): <Trial 64 (4 in rep 6) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 64, 'thisTrialN': 4, 'thisRepN': 6}>
+77.7426 	DATA 	Keypress: z
+77.7546 	INFO 	Keyboard events cleared
+77.7544 	EXP 	fixation: autoDraw = False
+77.7544 	EXP 	Stimulus: autoDraw = False
+77.7544 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+77.7544 	EXP 	fixation: autoDraw = True
+77.7544 	EXP 	Stimulus: autoDraw = True
+77.9712 	EXP 	Device response: <KeyPress from None: t=77.72659849999764, value=z, duration=0.22941749999881722>
+78.2546 	EXP 	fixation: autoDraw = False
+78.3384 	EXP 	Device response: <KeyPress from None: t=78.33010289999947, value=z, duration=None>
+78.3389 	EXP 	New trial (rep=6, index=5): <Trial 65 (5 in rep 6) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 65, 'thisTrialN': 5, 'thisRepN': 6}>
+78.3427 	DATA 	Keypress: z
+78.3543 	INFO 	Keyboard events cleared
+78.3542 	EXP 	fixation: autoDraw = False
+78.3542 	EXP 	Stimulus: autoDraw = False
+78.3542 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+78.3542 	EXP 	fixation: autoDraw = True
+78.3542 	EXP 	Stimulus: autoDraw = True
+78.5383 	EXP 	Device response: <KeyPress from None: t=78.33010289999947, value=z, duration=0.204999300010968>
+78.8544 	EXP 	fixation: autoDraw = False
+79.0876 	EXP 	Device response: <KeyPress from None: t=79.07226980000269, value=z, duration=None>
+79.0878 	EXP 	New trial (rep=6, index=6): <Trial 66 (6 in rep 6) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 66, 'thisTrialN': 6, 'thisRepN': 6}>
+79.0895 	DATA 	Keypress: z
+79.1040 	INFO 	Keyboard events cleared
+79.1038 	EXP 	fixation: autoDraw = False
+79.1038 	EXP 	Stimulus: autoDraw = False
+79.1038 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+79.1038 	EXP 	fixation: autoDraw = True
+79.1038 	EXP 	Stimulus: autoDraw = True
+79.3047 	EXP 	Device response: <KeyPress from None: t=79.07226980000269, value=z, duration=0.2271318999992218>
+79.6041 	EXP 	fixation: autoDraw = False
+79.9542 	EXP 	Device response: <KeyPress from None: t=79.95262510000612, value=m, duration=None>
+79.9548 	EXP 	New trial (rep=6, index=7): <Trial 67 (7 in rep 6) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 67, 'thisTrialN': 7, 'thisRepN': 6}>
+79.9589 	DATA 	Keypress: m
+79.9704 	INFO 	Keyboard events cleared
+79.9702 	EXP 	fixation: autoDraw = False
+79.9702 	EXP 	Stimulus: autoDraw = False
+79.9702 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+79.9702 	EXP 	fixation: autoDraw = True
+79.9702 	EXP 	Stimulus: autoDraw = True
+80.1875 	EXP 	Device response: <KeyPress from None: t=79.95262510000612, value=m, duration=0.22135110000090208>
+80.4704 	EXP 	fixation: autoDraw = False
+80.9702 	EXP 	Stimulus: autoDraw = False
+81.1539 	EXP 	Device response: <KeyPress from None: t=81.14441580000857, value=m, duration=None>
+81.1544 	EXP 	New trial (rep=6, index=8): <Trial 68 (8 in rep 6) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 68, 'thisTrialN': 8, 'thisRepN': 6}>
+81.1579 	DATA 	Keypress: m
+81.1700 	INFO 	Keyboard events cleared
+81.1698 	EXP 	fixation: autoDraw = False
+81.1698 	EXP 	Stimulus: autoDraw = False
+81.1698 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+81.1698 	EXP 	fixation: autoDraw = True
+81.1698 	EXP 	Stimulus: autoDraw = True
+81.3869 	EXP 	Device response: <KeyPress from None: t=81.14441580000857, value=m, duration=0.23659219998808112>
+81.6697 	EXP 	fixation: autoDraw = False
+82.1696 	EXP 	Stimulus: autoDraw = False
+82.9864 	EXP 	Device response: <KeyPress from None: t=82.98541989999649, value=m, duration=None>
+82.9867 	EXP 	New trial (rep=6, index=9): <Trial 69 (9 in rep 6) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 69, 'thisTrialN': 9, 'thisRepN': 6}>
+82.9912 	DATA 	Keypress: m
+83.0028 	INFO 	Keyboard events cleared
+83.0026 	EXP 	fixation: autoDraw = False
+83.0026 	EXP 	Stimulus: autoDraw = False
+83.0026 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+83.0026 	EXP 	fixation: autoDraw = True
+83.0026 	EXP 	Stimulus: autoDraw = True
+83.2199 	EXP 	Device response: <KeyPress from None: t=82.98541989999649, value=m, duration=0.22710850001021754>
+83.5026 	EXP 	fixation: autoDraw = False
+83.6859 	EXP 	Device response: <KeyPress from None: t=83.68328939999628, value=z, duration=None>
+83.6862 	EXP 	New trial (rep=7, index=0): <Trial 70 (0 in rep 7) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 70, 'thisTrialN': 0, 'thisRepN': 7}>
+83.6878 	DATA 	Keypress: z
+83.7025 	INFO 	Keyboard events cleared
+83.7023 	EXP 	fixation: autoDraw = False
+83.7023 	EXP 	Stimulus: autoDraw = False
+83.7023 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+83.7023 	EXP 	fixation: autoDraw = True
+83.7023 	EXP 	Stimulus: autoDraw = True
+84.0031 	EXP 	Device response: <KeyPress from None: t=83.68328939999628, value=z, duration=0.30963790000532754>
+84.2026 	EXP 	fixation: autoDraw = False
+84.4197 	EXP 	Device response: <KeyPress from None: t=84.40750149999803, value=z, duration=None>
+84.4201 	EXP 	New trial (rep=7, index=1): <Trial 71 (1 in rep 7) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 71, 'thisTrialN': 1, 'thisRepN': 7}>
+84.4238 	DATA 	Keypress: z
+84.4357 	INFO 	Keyboard events cleared
+84.4356 	EXP 	fixation: autoDraw = False
+84.4356 	EXP 	Stimulus: autoDraw = False
+84.4356 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+84.4356 	EXP 	fixation: autoDraw = True
+84.4356 	EXP 	Stimulus: autoDraw = True
+84.7193 	EXP 	Device response: <KeyPress from None: t=84.40750149999803, value=z, duration=0.30327080001006834>
+84.9357 	EXP 	fixation: autoDraw = False
+85.1029 	EXP 	Device response: <KeyPress from None: t=85.09832910000114, value=z, duration=None>
+85.1033 	EXP 	New trial (rep=7, index=2): <Trial 72 (2 in rep 7) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 72, 'thisTrialN': 2, 'thisRepN': 7}>
+85.1071 	DATA 	Keypress: z
+85.1186 	INFO 	Keyboard events cleared
+85.1185 	EXP 	fixation: autoDraw = False
+85.1185 	EXP 	Stimulus: autoDraw = False
+85.1185 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+85.1185 	EXP 	fixation: autoDraw = True
+85.1185 	EXP 	Stimulus: autoDraw = True
+85.3693 	EXP 	Device response: <KeyPress from None: t=85.09832910000114, value=z, duration=0.25482580000243615>
+85.6186 	EXP 	fixation: autoDraw = False
+85.7691 	EXP 	Device response: <KeyPress from None: t=85.7657928999979, value=z, duration=None>
+85.7695 	EXP 	New trial (rep=7, index=3): <Trial 73 (3 in rep 7) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 73, 'thisTrialN': 3, 'thisRepN': 7}>
+85.7733 	DATA 	Keypress: z
+85.7851 	INFO 	Keyboard events cleared
+85.7850 	EXP 	fixation: autoDraw = False
+85.7850 	EXP 	Stimulus: autoDraw = False
+85.7850 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+85.7850 	EXP 	fixation: autoDraw = True
+85.7850 	EXP 	Stimulus: autoDraw = True
+86.0185 	EXP 	Device response: <KeyPress from None: t=85.7657928999979, value=z, duration=0.24207610001030844>
+86.2853 	EXP 	fixation: autoDraw = False
+86.6537 	DATA 	Keypress: z
+86.6687 	EXP 	Device response: <KeyPress from None: t=86.6526515000005, value=z, duration=None>
+86.6691 	EXP 	New trial (rep=7, index=4): <Trial 74 (4 in rep 7) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 74, 'thisTrialN': 4, 'thisRepN': 7}>
+86.6852 	INFO 	Keyboard events cleared
+86.6850 	EXP 	fixation: autoDraw = False
+86.6850 	EXP 	Stimulus: autoDraw = False
+86.6850 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+86.6850 	EXP 	fixation: autoDraw = True
+86.6850 	EXP 	Stimulus: autoDraw = True
+86.9022 	EXP 	Device response: <KeyPress from None: t=86.6526515000005, value=z, duration=0.24205300000903662>
+87.1848 	EXP 	fixation: autoDraw = False
+87.3532 	DATA 	Keypress: z
+87.3683 	EXP 	Device response: <KeyPress from None: t=87.35252790000231, value=z, duration=None>
+87.3686 	EXP 	New trial (rep=7, index=5): <Trial 75 (5 in rep 7) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 75, 'thisTrialN': 5, 'thisRepN': 7}>
+87.3849 	INFO 	Keyboard events cleared
+87.3848 	EXP 	fixation: autoDraw = False
+87.3848 	EXP 	Stimulus: autoDraw = False
+87.3848 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+87.3848 	EXP 	fixation: autoDraw = True
+87.3848 	EXP 	Stimulus: autoDraw = True
+87.6353 	EXP 	Device response: <KeyPress from None: t=87.35252790000231, value=z, duration=0.26622360000328626>
+87.8847 	EXP 	fixation: autoDraw = False
+88.0352 	EXP 	Device response: <KeyPress from None: t=88.02889909999794, value=z, duration=None>
+88.0356 	EXP 	New trial (rep=7, index=6): <Trial 76 (6 in rep 7) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 76, 'thisTrialN': 6, 'thisRepN': 7}>
+88.0391 	DATA 	Keypress: z
+88.0511 	INFO 	Keyboard events cleared
+88.0509 	EXP 	fixation: autoDraw = False
+88.0509 	EXP 	Stimulus: autoDraw = False
+88.0509 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+88.0509 	EXP 	fixation: autoDraw = True
+88.0509 	EXP 	Stimulus: autoDraw = True
+88.3011 	EXP 	Device response: <KeyPress from None: t=88.02889909999794, value=z, duration=0.25783090000913944>
+88.5512 	EXP 	fixation: autoDraw = False
+89.0509 	EXP 	Stimulus: autoDraw = False
+89.4507 	EXP 	Device response: <KeyPress from None: t=89.4381074999983, value=m, duration=None>
+89.4510 	EXP 	New trial (rep=7, index=7): <Trial 77 (7 in rep 7) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 77, 'thisTrialN': 7, 'thisRepN': 7}>
+89.4540 	DATA 	Keypress: m
+89.4671 	INFO 	Keyboard events cleared
+89.4670 	EXP 	fixation: autoDraw = False
+89.4670 	EXP 	Stimulus: autoDraw = False
+89.4670 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+89.4670 	EXP 	fixation: autoDraw = True
+89.4670 	EXP 	Stimulus: autoDraw = True
+89.7010 	EXP 	Device response: <KeyPress from None: t=89.4381074999983, value=m, duration=0.26156270000501536>
+89.9673 	EXP 	fixation: autoDraw = False
+90.0510 	EXP 	Device response: <KeyPress from None: t=90.04597439999634, value=m, duration=None>
+90.0514 	EXP 	New trial (rep=7, index=8): <Trial 78 (8 in rep 7) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 78, 'thisTrialN': 8, 'thisRepN': 7}>
+90.0548 	DATA 	Keypress: m
+90.0670 	INFO 	Keyboard events cleared
+90.0668 	EXP 	fixation: autoDraw = False
+90.0668 	EXP 	Stimulus: autoDraw = False
+90.0668 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+90.0668 	EXP 	fixation: autoDraw = True
+90.0668 	EXP 	Stimulus: autoDraw = True
+90.2677 	EXP 	Device response: <KeyPress from None: t=90.04597439999634, value=m, duration=0.22056000000156928>
+90.5667 	EXP 	fixation: autoDraw = False
+90.8506 	EXP 	Device response: <KeyPress from None: t=90.84906619999674, value=m, duration=None>
+90.8510 	EXP 	New trial (rep=7, index=9): <Trial 79 (9 in rep 7) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 79, 'thisTrialN': 9, 'thisRepN': 7}>
+90.8547 	DATA 	Keypress: m
+90.8666 	INFO 	Keyboard events cleared
+90.8664 	EXP 	fixation: autoDraw = False
+90.8664 	EXP 	Stimulus: autoDraw = False
+90.8664 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+90.8664 	EXP 	fixation: autoDraw = True
+90.8664 	EXP 	Stimulus: autoDraw = True
+91.0841 	EXP 	Device response: <KeyPress from None: t=90.84906619999674, value=m, duration=0.2280936000024667>
+91.3665 	EXP 	fixation: autoDraw = False
+91.5006 	EXP 	Device response: <KeyPress from None: t=91.48783600000024, value=m, duration=None>
+91.5010 	EXP 	New trial (rep=8, index=0): <Trial 80 (0 in rep 8) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 80, 'thisTrialN': 0, 'thisRepN': 8}>
+91.5050 	DATA 	Keypress: m
+91.5164 	INFO 	Keyboard events cleared
+91.5163 	EXP 	fixation: autoDraw = False
+91.5163 	EXP 	Stimulus: autoDraw = False
+91.5163 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+91.5163 	EXP 	fixation: autoDraw = True
+91.5163 	EXP 	Stimulus: autoDraw = True
+91.7167 	EXP 	Device response: <KeyPress from None: t=91.48783600000024, value=m, duration=0.22382510000898037>
+92.0166 	EXP 	fixation: autoDraw = False
+92.1183 	DATA 	Keypress: m
+92.1337 	EXP 	Device response: <KeyPress from None: t=92.1157935000083, value=m, duration=None>
+92.1342 	EXP 	New trial (rep=8, index=1): <Trial 81 (1 in rep 8) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 81, 'thisTrialN': 1, 'thisRepN': 8}>
+92.1501 	INFO 	Keyboard events cleared
+92.1499 	EXP 	fixation: autoDraw = False
+92.1499 	EXP 	Stimulus: autoDraw = False
+92.1499 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+92.1499 	EXP 	fixation: autoDraw = True
+92.1499 	EXP 	Stimulus: autoDraw = True
+92.3502 	EXP 	Device response: <KeyPress from None: t=92.1157935000083, value=m, duration=0.23219729999254923>
+92.6498 	EXP 	fixation: autoDraw = False
+92.7665 	EXP 	Device response: <KeyPress from None: t=92.7573895000096, value=z, duration=None>
+92.7671 	EXP 	New trial (rep=8, index=2): <Trial 82 (2 in rep 8) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 82, 'thisTrialN': 2, 'thisRepN': 8}>
+92.7707 	DATA 	Keypress: z
+92.7829 	INFO 	Keyboard events cleared
+92.7827 	EXP 	fixation: autoDraw = False
+92.7827 	EXP 	Stimulus: autoDraw = False
+92.7827 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+92.7827 	EXP 	fixation: autoDraw = True
+92.7827 	EXP 	Stimulus: autoDraw = True
+93.0164 	EXP 	Device response: <KeyPress from None: t=92.7573895000096, value=z, duration=0.24757759999192785>
+93.2829 	EXP 	fixation: autoDraw = False
+93.2834 	EXP 	Device response: <KeyPress from None: t=93.27454280000529, value=z, duration=None>
+93.2838 	EXP 	New trial (rep=8, index=3): <Trial 83 (3 in rep 8) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 83, 'thisTrialN': 3, 'thisRepN': 8}>
+93.2874 	DATA 	Keypress: z
+93.2994 	INFO 	Keyboard events cleared
+93.2992 	EXP 	fixation: autoDraw = False
+93.2992 	EXP 	Stimulus: autoDraw = False
+93.2992 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+93.2992 	EXP 	fixation: autoDraw = True
+93.2992 	EXP 	Stimulus: autoDraw = True
+93.5000 	EXP 	Device response: <KeyPress from None: t=93.27454280000529, value=z, duration=0.21590529999230057>
+93.7993 	EXP 	fixation: autoDraw = False
+94.2992 	EXP 	Stimulus: autoDraw = False
+94.5997 	EXP 	Device response: <KeyPress from None: t=94.58449580000888, value=m, duration=None>
+94.6002 	EXP 	New trial (rep=8, index=4): <Trial 84 (4 in rep 8) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 84, 'thisTrialN': 4, 'thisRepN': 8}>
+94.6049 	DATA 	Keypress: m
+94.6154 	INFO 	Keyboard events cleared
+94.6152 	EXP 	fixation: autoDraw = False
+94.6152 	EXP 	Stimulus: autoDraw = False
+94.6152 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+94.6152 	EXP 	fixation: autoDraw = True
+94.6152 	EXP 	Stimulus: autoDraw = True
+94.8161 	EXP 	Device response: <KeyPress from None: t=94.58449580000888, value=m, duration=0.21521329999086447>
+95.1151 	EXP 	fixation: autoDraw = False
+95.3325 	EXP 	Device response: <KeyPress from None: t=95.32183440000517, value=m, duration=None>
+95.3329 	EXP 	New trial (rep=8, index=5): <Trial 85 (5 in rep 8) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 85, 'thisTrialN': 5, 'thisRepN': 8}>
+95.3365 	DATA 	Keypress: m
+95.3486 	INFO 	Keyboard events cleared
+95.3485 	EXP 	fixation: autoDraw = False
+95.3485 	EXP 	Stimulus: autoDraw = False
+95.3485 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+95.3485 	EXP 	fixation: autoDraw = True
+95.3485 	EXP 	Stimulus: autoDraw = True
+95.5823 	EXP 	Device response: <KeyPress from None: t=95.32183440000517, value=m, duration=0.24855099999695085>
+95.8485 	EXP 	fixation: autoDraw = False
+96.0325 	EXP 	Device response: <KeyPress from None: t=96.02746150000894, value=z, duration=None>
+96.0328 	EXP 	New trial (rep=8, index=6): <Trial 86 (6 in rep 8) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 86, 'thisTrialN': 6, 'thisRepN': 8}>
+96.0362 	DATA 	Keypress: z
+96.0484 	INFO 	Keyboard events cleared
+96.0482 	EXP 	fixation: autoDraw = False
+96.0482 	EXP 	Stimulus: autoDraw = False
+96.0482 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+96.0482 	EXP 	fixation: autoDraw = True
+96.0482 	EXP 	Stimulus: autoDraw = True
+96.2819 	EXP 	Device response: <KeyPress from None: t=96.02746150000894, value=z, duration=0.2467354999971576>
+96.5484 	EXP 	fixation: autoDraw = False
+96.6155 	EXP 	Device response: <KeyPress from None: t=96.60976320000191, value=z, duration=None>
+96.6159 	EXP 	New trial (rep=8, index=7): <Trial 87 (7 in rep 8) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 87, 'thisTrialN': 7, 'thisRepN': 8}>
+96.6199 	DATA 	Keypress: z
+96.6315 	INFO 	Keyboard events cleared
+96.6313 	EXP 	fixation: autoDraw = False
+96.6313 	EXP 	Stimulus: autoDraw = False
+96.6313 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+96.6313 	EXP 	fixation: autoDraw = True
+96.6313 	EXP 	Stimulus: autoDraw = True
+96.8820 	EXP 	Device response: <KeyPress from None: t=96.60976320000191, value=z, duration=0.2590085999981966>
+97.1315 	EXP 	fixation: autoDraw = False
+97.2486 	EXP 	Device response: <KeyPress from None: t=97.24558460000844, value=m, duration=None>
+97.2491 	EXP 	New trial (rep=8, index=8): <Trial 88 (8 in rep 8) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 88, 'thisTrialN': 8, 'thisRepN': 8}>
+97.2530 	DATA 	Keypress: m
+97.2645 	INFO 	Keyboard events cleared
+97.2644 	EXP 	fixation: autoDraw = False
+97.2644 	EXP 	Stimulus: autoDraw = False
+97.2644 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+97.2644 	EXP 	fixation: autoDraw = True
+97.2644 	EXP 	Stimulus: autoDraw = True
+97.5313 	EXP 	Device response: <KeyPress from None: t=97.24558460000844, value=m, duration=0.2691540999949211>
+97.7644 	EXP 	fixation: autoDraw = False
+98.0817 	EXP 	Device response: <KeyPress from None: t=98.06876979999652, value=z, duration=None>
+98.0821 	EXP 	New trial (rep=8, index=9): <Trial 89 (9 in rep 8) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 89, 'thisTrialN': 9, 'thisRepN': 8}>
+98.0858 	DATA 	Keypress: z
+98.0977 	INFO 	Keyboard events cleared
+98.0975 	EXP 	fixation: autoDraw = False
+98.0975 	EXP 	Stimulus: autoDraw = False
+98.0975 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+98.0975 	EXP 	fixation: autoDraw = True
+98.0975 	EXP 	Stimulus: autoDraw = True
+98.3483 	EXP 	Device response: <KeyPress from None: t=98.06876979999652, value=z, duration=0.27114030001393985>
+98.5975 	EXP 	fixation: autoDraw = False
+98.7815 	EXP 	Device response: <KeyPress from None: t=98.77220020000823, value=z, duration=None>
+98.7819 	EXP 	New trial (rep=9, index=0): <Trial 90 (0 in rep 9) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 90, 'thisTrialN': 0, 'thisRepN': 9}>
+98.7852 	DATA 	Keypress: z
+98.7975 	INFO 	Keyboard events cleared
+98.7973 	EXP 	fixation: autoDraw = False
+98.7973 	EXP 	Stimulus: autoDraw = False
+98.7973 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+98.7973 	EXP 	fixation: autoDraw = True
+98.7973 	EXP 	Stimulus: autoDraw = True
+98.9814 	EXP 	Device response: <KeyPress from None: t=98.77220020000823, value=z, duration=0.19870219999575056>
+99.2973 	EXP 	fixation: autoDraw = False
+99.3980 	EXP 	Device response: <KeyPress from None: t=99.38832060000277, value=z, duration=None>
+99.3984 	EXP 	New trial (rep=9, index=1): <Trial 91 (1 in rep 9) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 91, 'thisTrialN': 1, 'thisRepN': 9}>
+99.4025 	DATA 	Keypress: z
+99.4139 	INFO 	Keyboard events cleared
+99.4138 	EXP 	fixation: autoDraw = False
+99.4138 	EXP 	Stimulus: autoDraw = False
+99.4138 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+99.4138 	EXP 	fixation: autoDraw = True
+99.4138 	EXP 	Stimulus: autoDraw = True
+99.6312 	EXP 	Device response: <KeyPress from None: t=99.38832060000277, value=z, duration=0.23082749999593943>
+99.9137 	EXP 	fixation: autoDraw = False
+100.0326 	DATA 	Keypress: m
+100.0474 	EXP 	Device response: <KeyPress from None: t=100.03204040000855, value=m, duration=None>
+100.0477 	EXP 	New trial (rep=9, index=2): <Trial 92 (2 in rep 9) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 92, 'thisTrialN': 2, 'thisRepN': 9}>
+100.0639 	INFO 	Keyboard events cleared
+100.0637 	EXP 	fixation: autoDraw = False
+100.0637 	EXP 	Stimulus: autoDraw = False
+100.0637 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+100.0637 	EXP 	fixation: autoDraw = True
+100.0637 	EXP 	Stimulus: autoDraw = True
+100.2976 	EXP 	Device response: <KeyPress from None: t=100.03204040000855, value=m, duration=0.25399620000098366>
+100.5637 	EXP 	fixation: autoDraw = False
+101.0634 	EXP 	Stimulus: autoDraw = False
+101.5470 	EXP 	Device response: <KeyPress from None: t=101.54509179999877, value=z, duration=None>
+101.5474 	EXP 	New trial (rep=9, index=3): <Trial 93 (3 in rep 9) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 93, 'thisTrialN': 3, 'thisRepN': 9}>
+101.5510 	DATA 	Keypress: z
+101.5630 	INFO 	Keyboard events cleared
+101.5629 	EXP 	fixation: autoDraw = False
+101.5629 	EXP 	Stimulus: autoDraw = False
+101.5629 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+101.5629 	EXP 	fixation: autoDraw = True
+101.5629 	EXP 	Stimulus: autoDraw = True
+101.8136 	EXP 	Device response: <KeyPress from None: t=101.54509179999877, value=z, duration=0.25959830000647344>
+102.0628 	EXP 	fixation: autoDraw = False
+102.1797 	EXP 	Device response: <KeyPress from None: t=102.17326429999957, value=m, duration=None>
+102.1801 	EXP 	New trial (rep=9, index=4): <Trial 94 (4 in rep 9) data={'color': 'red', 'position': [0.3, 0], 'correct_key': 'z', 'congruency': 'incongruent', 'thisN': 94, 'thisTrialN': 4, 'thisRepN': 9}>
+102.1836 	DATA 	Keypress: m
+102.1961 	INFO 	Keyboard events cleared
+102.1960 	EXP 	fixation: autoDraw = False
+102.1960 	EXP 	Stimulus: autoDraw = False
+102.1960 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+102.1960 	EXP 	fixation: autoDraw = True
+102.1960 	EXP 	Stimulus: autoDraw = True
+102.4802 	EXP 	Device response: <KeyPress from None: t=102.17326429999957, value=m, duration=0.2919605000060983>
+102.6964 	EXP 	fixation: autoDraw = False
+102.8630 	EXP 	Device response: <KeyPress from None: t=102.85451030000695, value=z, duration=None>
+102.8633 	EXP 	New trial (rep=9, index=5): <Trial 95 (5 in rep 9) data={'color': 'green', 'position': [-0.3, 0], 'correct_key': 'm', 'congruency': 'incongruent', 'thisN': 95, 'thisTrialN': 5, 'thisRepN': 9}>
+102.8656 	DATA 	Keypress: z
+102.8795 	INFO 	Keyboard events cleared
+102.8794 	EXP 	fixation: autoDraw = False
+102.8794 	EXP 	Stimulus: autoDraw = False
+102.8794 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+102.8794 	EXP 	fixation: autoDraw = True
+102.8794 	EXP 	Stimulus: autoDraw = True
+103.1629 	EXP 	Device response: <KeyPress from None: t=102.85451030000695, value=z, duration=0.3077188000024762>
+103.3792 	EXP 	fixation: autoDraw = False
+103.5629 	EXP 	Device response: <KeyPress from None: t=103.56055690000358, value=m, duration=None>
+103.5632 	EXP 	New trial (rep=9, index=6): <Trial 96 (6 in rep 9) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 96, 'thisTrialN': 6, 'thisRepN': 9}>
+103.5671 	DATA 	Keypress: m
+103.5792 	INFO 	Keyboard events cleared
+103.5790 	EXP 	fixation: autoDraw = False
+103.5790 	EXP 	Stimulus: autoDraw = False
+103.5790 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+103.5790 	EXP 	fixation: autoDraw = True
+103.5790 	EXP 	Stimulus: autoDraw = True
+103.8461 	EXP 	Device response: <KeyPress from None: t=103.56055690000358, value=m, duration=0.2751261999947019>
+104.0793 	EXP 	fixation: autoDraw = False
+104.3624 	EXP 	Device response: <KeyPress from None: t=104.36183850000089, value=z, duration=None>
+104.3626 	EXP 	New trial (rep=9, index=7): <Trial 97 (7 in rep 9) data={'color': 'green', 'position': [0.3, 0], 'correct_key': 'm', 'congruency': 'congruent', 'thisN': 97, 'thisTrialN': 7, 'thisRepN': 9}>
+104.3650 	DATA 	Keypress: z
+104.3787 	INFO 	Keyboard events cleared
+104.3786 	EXP 	fixation: autoDraw = False
+104.3786 	EXP 	Stimulus: autoDraw = False
+104.3786 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: green, alpha=1.0>
+104.3786 	EXP 	fixation: autoDraw = True
+104.3786 	EXP 	Stimulus: autoDraw = True
+104.6295 	EXP 	Device response: <KeyPress from None: t=104.36183850000089, value=z, duration=0.26614120000158437>
+104.8789 	EXP 	fixation: autoDraw = False
+105.3788 	EXP 	Stimulus: autoDraw = False
+105.5786 	EXP 	Device response: <KeyPress from None: t=105.5640790000034, value=m, duration=None>
+105.5788 	EXP 	New trial (rep=9, index=8): <Trial 98 (8 in rep 9) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 98, 'thisTrialN': 8, 'thisRepN': 9}>
+105.5807 	DATA 	Keypress: m
+105.5950 	INFO 	Keyboard events cleared
+105.5949 	EXP 	fixation: autoDraw = False
+105.5949 	EXP 	Stimulus: autoDraw = False
+105.5949 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+105.5949 	EXP 	fixation: autoDraw = True
+105.5949 	EXP 	Stimulus: autoDraw = True
+105.8124 	EXP 	Device response: <KeyPress from None: t=105.5640790000034, value=m, duration=0.23175890000129584>
+106.0951 	EXP 	fixation: autoDraw = False
+106.1957 	EXP 	Device response: <KeyPress from None: t=106.18150760000572, value=z, duration=None>
+106.1960 	EXP 	New trial (rep=9, index=9): <Trial 99 (9 in rep 9) data={'color': 'red', 'position': [-0.3, 0], 'correct_key': 'z', 'congruency': 'congruent', 'thisN': 99, 'thisTrialN': 9, 'thisRepN': 9}>
+106.1997 	DATA 	Keypress: z
+106.2117 	INFO 	Keyboard events cleared
+106.2116 	EXP 	fixation: autoDraw = False
+106.2116 	EXP 	Stimulus: autoDraw = False
+106.2116 	EXP 	Stimulus: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+106.2116 	EXP 	fixation: autoDraw = True
+106.2116 	EXP 	Stimulus: autoDraw = True
+106.4788 	EXP 	Device response: <KeyPress from None: t=106.18150760000572, value=z, duration=0.2808950000035111>
+106.7111 	EXP 	fixation: autoDraw = False
+107.2114 	EXP 	Stimulus: autoDraw = False
+108.1780 	EXP 	Device response: <KeyPress from None: t=108.16568940000434, value=z, duration=None>
+108.1792 	DATA 	Keypress: z
+108.1944 	EXP 	fixation: autoDraw = False
+108.1944 	EXP 	Stimulus: autoDraw = False
+108.1946 	EXP 	SimonTask: status = STOPPED
+108.2352 	INFO 	saved data to "C:\\Users\\Admin\\OneDrive\\Desktop\\LAB IN PSY'\\psychopy\\simon task_solo project\\data\\5_SimonTask_2025-11-16_20h37.15.854.csv"
+108.2388 	INFO 	saved data to C:\Users\Admin\OneDrive\Desktop\LAB IN PSY'\psychopy\simon task_solo project\data\5_SimonTask_2025-11-16_20h37.15.854.psydat
+111.3035 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+111.3295 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
